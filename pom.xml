@@ -101,4 +101,11 @@
 			</plugin>
 		</plugins>
 	</build>
+	  <distributionManagement>
+    	     <repository>
+     		 <id>release2</id>
+	 	 <name>release2</name>
+      		 <url>http://ec2-54-86-249-180.compute-1.amazonaws.com:8081/repository/release2/</url>
+   	     </repository>
+  	  </distributionManagement>
 </project>
